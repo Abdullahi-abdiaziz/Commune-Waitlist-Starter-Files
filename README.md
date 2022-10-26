@@ -50,7 +50,7 @@ Use this section to recap over some of your major learnings while working throug
 ## Author
 
 
-- Linked In - [@yourusername](https://www.linkedin.com/in/abdullahi-abdiaziz-yusuf-884b77182)
-- Twitter - [@yourusername](https://www.twitter.com/apdllah_abdaziz)
+- Linked In - [@apdullahi-abdiaziz](https://www.linkedin.com/in/abdullahi-abdiaziz-yusuf-884b77182)
+- Twitter - [@apdllah_abdiaziz](https://www.twitter.com/apdllah_abdaziz)
 
 
