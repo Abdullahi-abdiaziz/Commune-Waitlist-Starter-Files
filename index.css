@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap');
+body {
+    background-color: aliceblue;
+}
+html {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 15px;
+    cursor: pointer;
+}
+ul li:hover {
+    color: #020233;
+}
+ul li span {
+    background-color: #020233;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+header .menu {
+    display: none;
+}
+.hero {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    /* border: 1px solid; */
+    margin: 40px auto;
+}
+.hero-content {
+    width: 65%;
+    /* border: 1px solid; */
+}
+.hero-content .bg-round {
+    background-color: #020233;
+    border-radius: 30px;
+    color: #9c9ce6;
+    width: fit-content;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.bg-round span {
+    font-weight:  bold;
+    color: #9c9ce6;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hero-content .hero-title {
+    font-size: 50px;
+    color: #020233;
+    margin: 0;
+}
+.hero-content .description {
+    opacity: .65;
+}
+.hero-content input {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #000;
+    width: 35%;
+}
+.hero-content label {
+    padding:20px;
+    background-color: #020233;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.hero-image {
+    width: 35%;
+    /* border: 1px solid; */
+}
+.hero-image img {
+    width: 300px;
+    margin-left: 50px;
+}
+footer img {
+    margin-right: 10px;
+}
+/* ! Tablet View  */
+@media (max-width: 918px) {
+    header .navbar {
+        display: none;
+    }
+    header .menu {
+        display: block;
+    }
+   .hero {
+    align-items: center;
+    justify-content: center;
+   }
+    .hero .hero-image {
+        display: none;
+    }
+    .hero .hero-content {
+        width: 100%;
+        text-align: center;
+    }
+    .hero-content .bg-round {
+        display: flex;
+        margin: 40px auto;
+        padding: 20px 25px;
+        font-size: 18px;
+    }
+    .hero-content .hero-title {
+        line-height: 70px;
+    }
+    .hero-content .description {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .hero-content input {
+        width: 50%;
+        padding: 25px;
+    }
+    .hero-content label {
+        padding: 25px 40px;
+    }
+}
+/* ! Tablet View  */
+@media (max-width: 600px) {
+    .hero-title {
+        line-height: 50px;
+    }
+    .hero-content input{
+        display: block;
+        width: 90%;
+        padding: 20px;
+    }
+    .hero-content label {
+        display: block;
+        margin: 10px 0;
+        width: 90%;
+        padding: 20px;
+    }
+}
